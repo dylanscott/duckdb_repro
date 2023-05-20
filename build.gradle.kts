@@ -16,3 +16,7 @@ dependencies {
   implementation("org.apache.arrow:arrow-jdbc:12.0.0")
   implementation("org.apache.arrow:flight-grpc:12.0.0")
 }
+
+application {
+  mainClass.set("Repro")
+}
