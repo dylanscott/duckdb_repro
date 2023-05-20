@@ -19,4 +19,5 @@ dependencies {
 
 application {
   mainClass.set("Repro")
+  applicationDefaultJvmArgs = listOf("--add-opens=java.base/java.nio=ALL-UNNAMED")
 }
